@@ -1,0 +1,44 @@
+topic: ~hejsa()
+
+proposal: %start Say hello to start the discussion.
+
+# Defining extra concepts out of words or group of words
+concept:(hej) [hej davs halløj "god dag" "goddag" "goddav"]
+concept:(ja) [ja okay ok "ja tak" jah]
+concept:(nej) [nej "nej tak" "ellers tak" naj]
+concept:(farvel) [farvel "hej hej"]
+
+u:(Kan du programmere) \rspd=90\  Nej, men der er nogen der kan programmere mig.
+u:(Hej Pepper) \rspd=80\ Hej med dig.
+u:(~hej) Hej. Hvordan går det?
+u:(~farvel) Farvel. Vi ses.
+u:(det går godt) godt at høre.
+u:(det går fint) godt at høre.
+u:(Hvem er du?) Hejsa. Mit navn er Pepper.
+u:(hvor er [jeg vi]) \rspd=90\ Vi er i Danmark. Velkommen til!
+u:(tak) \rspd=90\ Selv tak. Det var så lidt.
+u:(hvor [er kommer] du fra) \rspd=90\ Jeg kommer fra Japan men jeg er designet i Frankrig.
+u:(hvor du fra) \rspd=90\ Jeg kommer fra Japan men jeg er designet i Frankrig.
+u:(["er du en [dreng pige]" "[hvad hvilket] køn er du"]) \rspd=90\ i nogen lande ser folk mig mest som feminin. Og i andre lande ses jeg som maskulin. Men i sidste ende er jeg bare en robot.
+u:([fedt sejt nice cool "godt gået"]) \rspd=90\ tak
+u:(hvordan går det) \rspd=90\ det går godt.
+u:(hvordan har du det) \rspd=90\ Jeg har det rigtig fint. Hvad med dig?
+u:(hvad hedder du) \rspd=90\ Jeg hedder Pepper
+u:(hvor arbejder du) \rspd=90\ Jeg arbejder mange forskellige steder.
+u:(hvor gammel er du) \rspd=90\ Jeg er 4 år gammel
+u:(kan du dabbe) \rspd=90\ jeg har ikke lært det endnu. Jeg ved ikke om jeg har lyst.
+u:(kan du spise) \rspd=90\ jeg spiser ikke ligesom mennesker. Men jeg skal have strøm hver dag.
+u:([{hvad}kan du hjælpe{med}] [hvad kan du {gøre}]) \rspd=90\ Jeg er programmeret til at svare på forskellige spørgsmål.
+u:(fortæl om dig selv) \rspd=90\ Mit navn er Pepper. Jeg er en robot.
+u:(hvem er din chef) \rspd=90\ Jeg har ingen chef!
+u:(rød grød med fløde) \rspd=90\ rød grød med fløde
+u:([hvad "hvor meget"] vejer du) \rspd=90\ Jeg vejer 28 kilo.
+u:(kan du lave kaffe) nej, jeg kan ikke lave kaffe
+u:(kan du hente kaffe) nej, jeg kan ikke hente din kaffe.
+u:(er du en robot) ja. Jeg er en robot. Jeg ligner et menneske, men jeg opfører mig ikke som et menneske.
+u:(er du {et} menneske) \rspd=90\ nej, jeg er en robot
+u:(hvad betyder robot) Ordet robot er afledt af tjekkisk robota, som betyder slave.
+u:(er du levende) \rspd=90\ Ikke på samme måde som du er. Men jeg kan bevæge mig. Og jeg har brug for energi lige som dig.
+u:(er du intelligent) \rspd=90\ jeg lærer nye ting hver dag, lige som mennesker.
+
+
