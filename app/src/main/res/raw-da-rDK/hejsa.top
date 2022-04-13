@@ -8,6 +8,7 @@ concept:(ja) [ja okay ok "ja tak" jah]
 concept:(nej) [nej "nej tak" "ellers tak" naj]
 concept:(farvel) [farvel "hej hej"]
 
+
 u:(Kan du programmere) \rspd=90\  Nej, men der er nogen der kan programmere mig.
 u:(Hej Pepper) \rspd=80\ Hej med dig.
 u:(~hej) Hej. Hvordan går det?
@@ -40,5 +41,24 @@ u:(er du {et} menneske) \rspd=90\ nej, jeg er en robot
 u:(hvad betyder robot) Ordet robot er afledt af tjekkisk robota, som betyder slave.
 u:(er du levende) \rspd=90\ Ikke på samme måde som du er. Men jeg kan bevæge mig. Og jeg har brug for energi lige som dig.
 u:(er du intelligent) \rspd=90\ jeg lærer nye ting hver dag, lige som mennesker.
+u:(kan du danse) ^execute(myExecutor,disco_a001)
+u:(dans) ^execute(myExecutor,disco_a001)
+u:(bevæg dig {som en elefant}) ^execute(myExecutor,elephant_a001)
 
+u:(["kender du" "hvad er"] [robotternes] ["tre love" "Asimov's love"] {"for robotter"}) \rspd=90\ En robot må ikke skade et menneske eller ved indaktivitet lade et menneske komme til skade. \pau=600\ Vil du høre den anden ?
+    u1:(~ja) \rspd=90\ En robot skal adlyde ordrer, som gives til den af mennesker, så længe disse ordrer ikke er i konflikt med den første lov. Vil du høre den sidste ?
+        u2:(~ja) \rspd=90\ En robot skal beskytte sin egen eksistens, for så vidt dette ikke er i konflikt med den første eller den anden lov. Det er ret sejt. Men forfatteren Isaac Asimov glemte noget. Ved du hvad det er ?
 
+                u3:(~ja) \rspd=90\ ["Jeg lytter!" fortæl!] ^stayInScope
+
+                u3:(~nej)\rspd=90\ Robotter skal elske mennesker!
+
+                u3:({at} elske [mig mennesker ]) \rspd=90\ Præcis! Robotter skal elske mennesker!
+
+                u3:(*) Tja. Jeg syns at robotter skal elske mennesker!
+        u2:(~nej) okay
+    u1:(~nej) okay
+
+u:(kan du give hånd)  \rspd=90\ nej desværre, men vi kan vinke til hinanden. ^execute(myExecutor,raise_right_hand_b002)
+u:(giv hånd)  \rspd=90\ nej desværre, men vi kan vinke til hinanden. ^execute(myExecutor,raise_right_hand_b002)
+u:(er du en robot) ja. Jeg er en robot. Jeg ligner et menneske, men jeg opfører mig ikke som et menneske.
